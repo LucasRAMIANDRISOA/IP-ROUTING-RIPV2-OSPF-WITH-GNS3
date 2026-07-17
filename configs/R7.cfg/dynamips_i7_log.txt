@@ -1,0 +1,61 @@
+Jul 17 17:31:43.190 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 17 17:31:43.190 HYPERVISOR: Started on TCP port = 55877.
+Jul 17 17:31:43.653 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 17 17:31:43.653 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips 
+Jul 17 17:31:43.653 GENERAL: working_dir=C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips
+Jul 17 17:31:43.653 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\fdc887f7-895f-4e67-9691-242fbda116f1 
+Jul 17 17:31:43.666 GENERAL: working_dir=C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\fdc887f7-895f-4e67-9691-242fbda116f1
+Jul 17 17:31:43.666 HYPERVISOR: exec_cmd: vm create R7 7 c7200 
+Jul 17 17:31:43.669 VM: VM R7 created.
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5006 
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: c7200 get_mac_addr R7 
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 0 C7200-IO-FE 
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: vm set_exec_area R7 64 
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: vm set_ram R7 512 
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: vm set_nvram R7 512 
+Jul 17 17:31:43.669 HYPERVISOR: exec_cmd: vm set_disk0 R7 0 
+Jul 17 17:31:43.764 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:02.596 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:05.938 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:14.279 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:14.912 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:17.503 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:20.067 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:26.076 HYPERVISOR: exec_cmd: vm set_ios R7 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:33:14.970 HYPERVISOR: exec_cmd: nio create_udp udp-fdab5f1c-bc43-4804-8077-da38eea57710 10040 127.0.0.1 10041 
+Jul 17 17:33:15.320 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 0 udp-fdab5f1c-bc43-4804-8077-da38eea57710 
+Jul 17 17:33:15.320 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:33:25.489 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:33:25.489 HYPERVISOR: exec_cmd: vm slot_add_binding R7 1 0 PA-2FE-TX 
+Jul 17 17:33:57.728 HYPERVISOR: exec_cmd: nio create_udp udp-097d6dad-6e36-4268-8134-7043bfc703e8 10044 127.0.0.1 10045 
+Jul 17 17:33:57.730 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 1 0 udp-097d6dad-6e36-4268-8134-7043bfc703e8 
+Jul 17 17:33:57.732 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:34:12.174 HYPERVISOR: exec_cmd: nio create_udp udp-29805ae4-43fe-42d9-8f83-1ce97b98bdbd 10058 127.0.0.1 10059 
+Jul 17 17:34:12.177 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 1 1 udp-29805ae4-43fe-42d9-8f83-1ce97b98bdbd 
+Jul 17 17:34:12.180 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:35:52.571 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:35:52.571 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R7 0 0 
+Jul 17 17:35:52.571 HYPERVISOR: exec_cmd: nio delete udp-fdab5f1c-bc43-4804-8077-da38eea57710 
+Jul 17 17:35:55.563 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:35:55.563 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R7 1 0 
+Jul 17 17:35:55.566 HYPERVISOR: exec_cmd: nio delete udp-097d6dad-6e36-4268-8134-7043bfc703e8 
+Jul 17 17:36:11.382 HYPERVISOR: exec_cmd: nio create_udp udp-92cb15da-99c1-401b-b693-2d6dc0a5b01c 10038 127.0.0.1 10039 
+Jul 17 17:36:11.389 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 0 udp-92cb15da-99c1-401b-b693-2d6dc0a5b01c 
+Jul 17 17:36:11.390 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:36:24.345 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:36:24.349 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R7 1 1 
+Jul 17 17:36:24.353 HYPERVISOR: exec_cmd: nio delete udp-29805ae4-43fe-42d9-8f83-1ce97b98bdbd 
+Jul 17 17:36:32.014 HYPERVISOR: exec_cmd: nio create_udp udp-1da0a89e-9678-453e-b02d-f3dc50440958 10046 127.0.0.1 10047 
+Jul 17 17:36:32.022 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 1 0 udp-1da0a89e-9678-453e-b02d-f3dc50440958 
+Jul 17 17:36:32.022 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:36:36.534 HYPERVISOR: exec_cmd: nio create_udp udp-1790df4f-8a4c-439f-81fa-f823293bfec5 10058 127.0.0.1 10059 
+Jul 17 17:36:36.541 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 1 1 udp-1790df4f-8a4c-439f-81fa-f823293bfec5 
+Jul 17 17:36:36.541 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:42:54.253 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+Jul 17 17:42:54.257 HYPERVISOR: exec_cmd: vm set_ghost_file R7 C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jul 17 17:42:54.261 HYPERVISOR: exec_cmd: vm get_status R7 
+Jul 17 17:42:54.261 HYPERVISOR: exec_cmd: vm set_config R7 configs\i7_startup-config.cfg 
+Jul 17 17:42:54.261 HYPERVISOR: exec_cmd: vm start R7 
+Jul 17 17:43:24.606 HYPERVISOR: exec_cmd: vm extract_config R7 

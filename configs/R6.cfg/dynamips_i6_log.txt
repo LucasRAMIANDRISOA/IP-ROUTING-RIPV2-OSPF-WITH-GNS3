@@ -1,0 +1,50 @@
+Jul 17 16:45:14.946 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 17 16:45:14.946 HYPERVISOR: Started on TCP port = 51265.
+Jul 17 16:45:15.420 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 17 16:45:15.420 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips 
+Jul 17 16:45:15.420 GENERAL: working_dir=C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips
+Jul 17 16:45:15.420 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\d6d7c561-9f54-48af-9789-f9ff1df79981 
+Jul 17 16:45:15.427 GENERAL: working_dir=C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\d6d7c561-9f54-48af-9789-f9ff1df79981
+Jul 17 16:45:15.427 HYPERVISOR: exec_cmd: vm create R6 6 c7200 
+Jul 17 16:45:15.432 VM: VM R6 created.
+Jul 17 16:45:15.432 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5005 
+Jul 17 16:45:15.432 HYPERVISOR: exec_cmd: c7200 get_mac_addr R6 
+Jul 17 16:45:15.432 HYPERVISOR: exec_cmd: vm get_status R6 
+Jul 17 16:45:15.432 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 C7200-IO-FE 
+Jul 17 16:45:15.436 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:45:15.436 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Jul 17 16:45:15.436 HYPERVISOR: exec_cmd: vm set_ram R6 512 
+Jul 17 16:45:15.436 HYPERVISOR: exec_cmd: vm set_nvram R6 512 
+Jul 17 16:45:15.436 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Jul 17 16:45:15.523 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:45:19.040 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:47:37.956 HYPERVISOR: exec_cmd: vm get_status R6 
+Jul 17 16:47:37.956 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 PA-2FE-TX 
+Jul 17 16:48:09.174 HYPERVISOR: exec_cmd: nio create_udp udp-3c5563aa-43b9-4b50-8a3b-b33de8eda63c 10028 127.0.0.1 10029 
+Jul 17 16:48:09.496 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-3c5563aa-43b9-4b50-8a3b-b33de8eda63c 
+Jul 17 16:48:09.496 HYPERVISOR: exec_cmd: vm get_status R6 
+Jul 17 16:48:13.319 HYPERVISOR: exec_cmd: nio create_udp udp-434639e5-5805-4921-b8f2-3329b1c91c63 10032 127.0.0.1 10033 
+Jul 17 16:48:13.334 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 0 udp-434639e5-5805-4921-b8f2-3329b1c91c63 
+Jul 17 16:48:13.334 HYPERVISOR: exec_cmd: vm get_status R6 
+Jul 17 16:53:20.958 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:54:36.749 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:11:34.226 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Jul 17 17:11:34.226 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jul 17 17:11:34.231 HYPERVISOR: exec_cmd: vm get_status R6 
+Jul 17 17:11:34.233 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+Jul 17 17:11:34.233 HYPERVISOR: exec_cmd: vm start R6 
+Jul 17 17:12:04.531 HYPERVISOR: exec_cmd: vm extract_config R6 
+Jul 17 17:12:34.542 HYPERVISOR: exec_cmd: vm extract_config R6 
+Jul 17 17:19:51.890 HYPERVISOR: exec_cmd: vm get_status R6 
+Jul 17 17:19:51.890 HYPERVISOR: exec_cmd: vm stop R6 
+Jul 17 17:19:52.028 VM: VM R6 shutdown.
+Jul 17 17:19:52.031 HYPERVISOR: exec_cmd: vm extract_config R6 
+Jul 17 17:22:58.587 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Jul 17 17:22:58.587 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jul 17 17:22:58.587 HYPERVISOR: exec_cmd: vm get_status R6 
+Jul 17 17:22:58.593 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg configs\i6_private-config.cfg 
+Jul 17 17:22:58.593 HYPERVISOR: exec_cmd: vm start R6 
+Jul 17 17:30:24.905 HYPERVISOR: exec_cmd: vm get_status R6 
+Jul 17 17:30:24.905 HYPERVISOR: exec_cmd: vm stop R6 
+Jul 17 17:30:25.018 VM: VM R6 shutdown.
+Jul 17 17:30:25.023 HYPERVISOR: exec_cmd: vm extract_config R6 

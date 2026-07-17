@@ -13,6 +13,7 @@ The objective is to configure and compare both protocols in a simulated enterpri
 
 ---
 
+![Topologie du réseau](topology.png)
 ## Objectives
 
 - Configure IPv4 addressing

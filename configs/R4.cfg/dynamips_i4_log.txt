@@ -1,0 +1,60 @@
+Jul 17 16:44:42.554 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 17 16:44:42.554 HYPERVISOR: Started on TCP port = 56476.
+Jul 17 16:44:43.047 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 17 16:44:43.047 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips 
+Jul 17 16:44:43.051 GENERAL: working_dir=C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips
+Jul 17 16:44:43.051 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\4e3c5c64-0d56-49a6-9f1a-dbc9ceb73736 
+Jul 17 16:44:43.060 GENERAL: working_dir=C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\4e3c5c64-0d56-49a6-9f1a-dbc9ceb73736
+Jul 17 16:44:43.060 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Jul 17 16:44:43.063 VM: VM R4 created.
+Jul 17 16:44:43.063 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Jul 17 16:44:43.063 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Jul 17 16:44:43.063 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 16:44:43.063 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Jul 17 16:44:43.070 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:44:43.070 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Jul 17 16:44:43.070 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Jul 17 16:44:43.070 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Jul 17 16:44:43.070 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Jul 17 16:44:43.174 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:45:07.263 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:45:24.076 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:47:15.311 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 16:47:15.311 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+Jul 17 16:47:57.683 HYPERVISOR: exec_cmd: nio create_udp udp-da9d150f-0c29-4ad3-895a-d9c7be3034e2 10016 127.0.0.1 10017 
+Jul 17 16:47:57.989 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-da9d150f-0c29-4ad3-895a-d9c7be3034e2 
+Jul 17 16:47:57.991 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 16:48:05.202 HYPERVISOR: exec_cmd: nio create_udp udp-6ca3c291-da66-4316-b4be-6ba1d1157933 10020 127.0.0.1 10021 
+Jul 17 16:48:05.213 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-6ca3c291-da66-4316-b4be-6ba1d1157933 
+Jul 17 16:48:05.213 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 16:48:24.284 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:52:57.842 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 16:53:19.498 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:10:14.663 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Jul 17 17:10:14.665 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jul 17 17:10:14.666 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 17:10:14.666 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg 
+Jul 17 17:10:14.666 HYPERVISOR: exec_cmd: vm start R4 
+Jul 17 17:10:44.975 HYPERVISOR: exec_cmd: vm extract_config R4 
+Jul 17 17:10:48.865 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 17:10:48.865 HYPERVISOR: exec_cmd: vm stop R4 
+Jul 17 17:10:49.075 VM: VM R4 shutdown.
+Jul 17 17:10:49.082 HYPERVISOR: exec_cmd: vm extract_config R4 
+Jul 17 17:22:58.240 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Jul 17 17:22:58.240 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jul 17 17:22:58.245 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 17:22:58.246 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg configs\i4_private-config.cfg 
+Jul 17 17:22:58.246 HYPERVISOR: exec_cmd: vm start R4 
+Jul 17 17:30:24.902 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 17:30:24.902 HYPERVISOR: exec_cmd: vm stop R4 
+Jul 17 17:30:25.078 VM: VM R4 shutdown.
+Jul 17 17:30:25.081 HYPERVISOR: exec_cmd: vm extract_config R4 
+Jul 17 17:33:14.961 HYPERVISOR: exec_cmd: nio create_udp udp-434cdf7b-a757-484c-b7f3-9dedf64dde94 10038 127.0.0.1 10039 
+Jul 17 17:33:14.961 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 1 udp-434cdf7b-a757-484c-b7f3-9dedf64dde94 
+Jul 17 17:33:14.961 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 17:35:52.563 HYPERVISOR: exec_cmd: vm get_status R4 
+Jul 17 17:35:52.563 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R4 1 1 
+Jul 17 17:35:52.568 HYPERVISOR: exec_cmd: nio delete udp-434cdf7b-a757-484c-b7f3-9dedf64dde94 
+Jul 17 17:36:36.527 HYPERVISOR: exec_cmd: nio create_udp udp-b8811979-6874-4d52-9c5d-0e99aa2283fa 10056 127.0.0.1 10057 
+Jul 17 17:36:36.527 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 1 udp-b8811979-6874-4d52-9c5d-0e99aa2283fa 
+Jul 17 17:36:36.527 HYPERVISOR: exec_cmd: vm get_status R4 

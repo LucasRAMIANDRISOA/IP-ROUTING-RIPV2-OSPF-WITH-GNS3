@@ -1,0 +1,45 @@
+Jul 17 17:31:46.474 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 17 17:31:46.489 HYPERVISOR: Started on TCP port = 50884.
+Jul 17 17:31:46.935 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 17 17:31:46.935 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips 
+Jul 17 17:31:46.935 GENERAL: working_dir=C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips
+Jul 17 17:31:46.935 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\c7dc03af-baff-4d02-8266-40fa9a1427a2 
+Jul 17 17:31:46.939 GENERAL: working_dir=C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\c7dc03af-baff-4d02-8266-40fa9a1427a2
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm create R8 8 c7200 
+Jul 17 17:31:46.939 VM: VM R8 created.
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 5007 
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: c7200 get_mac_addr R8 
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm get_status R8 
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 0 C7200-IO-FE 
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm set_exec_area R8 64 
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm set_ram R8 512 
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm set_nvram R8 512 
+Jul 17 17:31:46.939 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+Jul 17 17:31:47.029 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:04.129 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:09.091 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:18.458 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:21.662 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:32:27.649 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:33:38.365 HYPERVISOR: exec_cmd: vm get_status R8 
+Jul 17 17:33:38.365 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 PA-2FE-TX 
+Jul 17 17:33:57.736 HYPERVISOR: exec_cmd: nio create_udp udp-a78f5a54-de4d-470e-8cfc-5293ad203caf 10046 127.0.0.1 10047 
+Jul 17 17:33:58.589 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 0 udp-a78f5a54-de4d-470e-8cfc-5293ad203caf 
+Jul 17 17:33:58.589 HYPERVISOR: exec_cmd: vm get_status R8 
+Jul 17 17:34:05.169 HYPERVISOR: exec_cmd: nio create_udp udp-45909a4c-0cee-4837-ba68-8f37af2f8811 10050 127.0.0.1 10051 
+Jul 17 17:34:05.176 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 1 0 udp-45909a4c-0cee-4837-ba68-8f37af2f8811 
+Jul 17 17:34:05.176 HYPERVISOR: exec_cmd: vm get_status R8 
+Jul 17 17:34:47.589 HYPERVISOR: exec_cmd: vm set_ios R8 C:/Users/hp/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jul 17 17:35:55.574 HYPERVISOR: exec_cmd: vm get_status R8 
+Jul 17 17:35:55.575 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R8 0 0 
+Jul 17 17:35:55.577 HYPERVISOR: exec_cmd: nio delete udp-a78f5a54-de4d-470e-8cfc-5293ad203caf 
+Jul 17 17:36:11.396 HYPERVISOR: exec_cmd: nio create_udp udp-954df5d2-10d7-42b0-9297-06d6dc18469e 10040 127.0.0.1 10041 
+Jul 17 17:36:11.403 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R8 0 0 udp-954df5d2-10d7-42b0-9297-06d6dc18469e 
+Jul 17 17:36:11.403 HYPERVISOR: exec_cmd: vm get_status R8 
+Jul 17 17:43:30.552 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Jul 17 17:43:30.552 HYPERVISOR: exec_cmd: vm set_ghost_file R8 C:\Users\hp\GNS3\projects\ROUTAGE IP (RIP ET OSPF)\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jul 17 17:43:30.555 HYPERVISOR: exec_cmd: vm get_status R8 
+Jul 17 17:43:30.555 HYPERVISOR: exec_cmd: vm set_config R8 configs\i8_startup-config.cfg 
+Jul 17 17:43:30.556 HYPERVISOR: exec_cmd: vm start R8 
+Jul 17 17:44:00.862 HYPERVISOR: exec_cmd: vm extract_config R8 
