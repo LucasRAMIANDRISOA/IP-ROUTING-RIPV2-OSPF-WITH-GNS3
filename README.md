@@ -1,76 +1,92 @@
-# IP ROUTING RIPV2 & OSPF WITH GNS3
-Implementation and comparison of RIPv2 and OSPF dynamic routing protocols in a simulated enterprise network using Cisco routers
-# IP Routing Lab - RIPv2 & OSPF
+# Mise en place d'un système de confinement réseau contre la propagation des virus
 
-## Overview
+Ce projet présente la conception et le déploiement d'une solution de sécurisation d'un réseau local permettant de détecter, limiter et contenir la propagation des virus informatiques grâce à la segmentation réseau et au contrôle des communications.
 
-This project demonstrates the implementation of two dynamic routing protocols:
-
-- RIPv2
-- OSPF
-
-The objective is to configure and compare both protocols in a simulated enterprise network while ensuring full connectivity between multiple LANs.
-
----
-
+## Présentation
 ![Topologie du réseau](topology.png)
-## Objectives
 
-- Configure IPv4 addressing
-- Implement RIPv2 routing
-- Implement OSPF routing
-- Verify end-to-end connectivity
-- Analyze routing tables
-- Compare convergence and scalability
+Ce projet a été réalisé dans le cadre de mon stage en **Administration Systèmes et Réseaux** à la **CENI Madagascar**.
+
+L'objectif est de renforcer la sécurité du réseau local en mettant en œuvre des mécanismes de confinement afin d'isoler les postes potentiellement infectés et de limiter la propagation des menaces vers les autres équipements du réseau.
+
+## Objectifs
+
+- Concevoir une infrastructure réseau sécurisée.
+- Segmenter le réseau à l'aide de VLAN.
+- Contrôler les communications entre les différents segments.
+- Isoler les postes compromis.
+- Renforcer la sécurité du réseau local.
+- Garantir la continuité des services.
 
 ---
 
-## Technologies
+## Technologies utilisées
 
-- Cisco IOS
 - GNS3
-- IPv4
-- RIPv2
-- OSPF
+- pfSense
+- VMware Workstation
+- Windows Server
+- Active Directory (AD DS)
+- Cisco IOS
+- VLAN
+- ACL (Listes de contrôle d'accès)
+- DHCP
+- DNS
+- NAT
+- Pare-feu (Firewall)
 
 ---
 
-## Features
+## Fonctionnalités
 
-- Multi-router topology
-- Dynamic route propagation
-- End-to-end communication
-- Routing table verification
-- Ping and traceroute validation
-
----
-
-## Verification
-
-Commands used:
-
-
-show ip route
-show ip protocols
-show ip ospf neighbor
-show ip ospf database
-show running-config
-ping
-traceroute
-
-## Learning Outcomes
-
-This project helped strengthen practical skills in:
-
-- Dynamic routing
-- Cisco IOS configuration
-- Enterprise network design
-- Routing protocol analysis
-- Network troubleshooting
+- Segmentation du réseau par VLAN.
+- Routage sécurisé entre les réseaux.
+- Filtrage des communications à l'aide d'ACL.
+- Gestion centralisée des utilisateurs avec Active Directory.
+- Distribution automatique des adresses IP.
+- Résolution de noms via DNS.
+- Isolation des postes suspects.
+- Validation du fonctionnement par des tests de connectivité.
 
 ---
 
-## Author
+## Architecture
 
-Lucas Ramiandriasoa
-Network & Systems Engineering Student
+L'infrastructure est composée de plusieurs VLAN représentant les différents services de l'entreprise.
+
+Le pare-feu **pfSense** assure :
+- le routage entre les VLAN ;
+- le filtrage des communications ;
+- la sécurisation des échanges ;
+- le confinement des postes infectés.
+
+---
+
+## Compétences développées
+
+- Administration Systèmes Windows Server
+- Administration Réseaux
+- Configuration de pfSense
+- Active Directory
+- VLAN
+- ACL
+- Routage IP
+- Sécurité des réseaux
+- Virtualisation avec VMware
+- Simulation réseau avec GNS3
+- Dépannage et résolution d'incidents
+
+---
+
+## Auteur
+
+**Lucas Ramiandriasoa**
+
+Étudiant en Informatique  
+Parcours Administration Systèmes et Réseaux  
+École Nationale d'Informatique (ENI) – Madagascar
+
+---
+
+> **Remarque :** Ce dépôt présente uniquement la partie technique du projet. Les configurations, adresses IP et informations internes de la CENI Madagascar ont été anonymisées afin de préserver la confidentialité de l'infrastructure.
+
